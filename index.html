@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		@font-face {
+			font-family: 'Arial';
+			src: url('Arial-Black.woff2') format('woff2'),
+				url('Arial-Black.woff') format('woff');
+			font-weight: 900;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial';
+			src: url('Arial-BoldItalicMT.woff2') format('woff2'),
+				url('Arial-BoldItalicMT.woff') format('woff');
+			font-weight: bold;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial';
+			src: url('Arial-ItalicMT.woff2') format('woff2'),
+				url('Arial-ItalicMT.woff') format('woff');
+			font-weight: normal;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial';
+			src: url('Arial-BoldMT.woff2') format('woff2'),
+				url('Arial-BoldMT.woff') format('woff');
+			font-weight: bold;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial Narrow';
+			src: url('ArialNarrow.woff2') format('woff2'),
+				url('ArialNarrow.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial Narrow';
+			src: url('ArialNarrow-Bold.woff2') format('woff2'),
+				url('ArialNarrow-Bold.woff') format('woff');
+			font-weight: bold;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial Narrow';
+			src: url('ArialNarrow-BoldItalic.woff2') format('woff2'),
+				url('ArialNarrow-BoldItalic.woff') format('woff');
+			font-weight: bold;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial Narrow';
+			src: url('ArialNarrow-Italic.woff2') format('woff2'),
+				url('ArialNarrow-Italic.woff') format('woff');
+			font-weight: normal;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Arial';
+			src: url('ArialMT.woff2') format('woff2'),
+				url('ArialMT.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Georgia';
+			src: url('Georgia-BoldItalic.woff2') format('woff2'),
+				url('Georgia-BoldItalic.woff') format('woff');
+			font-weight: bold;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Georgia';
+			src: url('Georgia-Bold.woff2') format('woff2'),
+				url('Georgia-Bold.woff') format('woff');
+			font-weight: bold;
+			font-style: normal;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Georgia';
+			src: url('Georgia-Italic.woff2') format('woff2'),
+				url('Georgia-Italic.woff') format('woff');
+			font-weight: normal;
+			font-style: italic;
+			font-display: swap;
+		}
+
+		@font-face {
+			font-family: 'Georgia';
+			src: url('Georgia.woff2') format('woff2'),
+				url('Georgia.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+			font-display: swap;
+		}
+	</style>
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Shelter</title>
+</head>
+
+<body>
+	<div class="head-bg bg">
+		<div class="head-wrapper wrapper">
+			<header>
+				<div class="logo">
+					<h1 class="logo__h1">
+						<a href="#">Cozy House</a>
+					</h1>
+					<p class="logo__p">
+						<a href="#">Shelter for pets in Boston</a>
+					</p>
+				</div>
+				<nav>
+					<ul class="nav">
+						<li><a href="#" id="about-link">About the shelter</a></li>
+						<li><a href="./pages/pets.html">Our pets</a></li>
+						<li><a href="#help">Help the shelter</a></li>
+						<li><a href="#footer">Contacts</a></li>
+					</ul>
+				</nav>
+			</header>
+			<section class="not-only">
+				<div class="not-only__left-side">
+					<h2 class="not-only__h">
+						Not only people need a house
+					</h2>
+					<p class="not-only__text">We offer to give a chance to a little and nice puppy with
+						an extremely wide and open heart. He or she will
+						love you more than anybody else in the world, you will see!</p>
+					<a href="#friends" class="not-only__button">Make a friend</a>
+				</div>
+				<div class="not-only__right-side">
+					<img src="./img/start-screen-puppy.png" alt="" class="flexible-image">
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<main>
+		<div class="bg about-bg">
+			<div class="about-wrapper wrapper">
+				<section class="about">
+					<div class="about__left-side">
+						<img src="./img/about-pets.png" alt="">
+					</div>
+					<div class="about__right-side">
+						<h2 class="about__h">
+							About the shelter “Cozy House”
+						</h2>
+						<p class="about__p">Currently we have 121 dogs and 342 cats on our
+							hands and statistics show that only 20%
+							of them will find a family. The others will continue to live
+							with us and will be waiting for a lucky
+							chance to become dearly loved.</p>
+						<p class="about__p">We feed our wards with the best food and make
+							sure that they do not get sick, feel
+							comfortable (including psychologically) and well. We are
+							supported by 87 volunteers and 28 employees of
+							various skill levels. About 12% of the animals are taken by the
+							shelter staff. Taking care of the animals,
+							they become attached to the pets and would hardly ever leave
+							them alone.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="friends-bg bg" id="friends">
+			<div class="friends-wrapper wrapper">
+				<section class="friends">
+					<h2 class="friends__h">Our friends who <br />
+						are looking for a house</h2>
+					<div class="friends__slider">
+						<button class="friends__slider__arrow-left arrow-style">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="6" viewBox="0 0 14 6" fill="none">
+								<path d="M14 2V4H3V6L0 3L3 0V2H14Z" />
+							</svg>
+						</button>
+						<div class="friends__slider__content">
+							<div class="friends__slider__card">
+								<img src="./img/pets-katrine.png" alt="">
+								<h3>Katrine</h3>
+								<a href="#">Learn more</a>
+							</div>
+							<div class="friends__slider__card">
+								<img src="./img/pets-jennifer.png" alt="">
+								<h3>Jennifer</h3>
+								<a href="#">Learn more</a>
+							</div>
+							<div class="friends__slider__card close">
+								<img src="./img/pets-woody.png" alt="">
+								<h3>Woody</h3>
+								<a href="#">Learn more</a>
+							</div>
+						</div>
+						<button class="friends__slider__arrow-right arrow-style">
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="6" viewBox="0 0 14 6" fill="none">
+								<path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z" />
+							</svg>
+						</button>
+					</div>
+					<a href="./pages/pets.html" class="friends__button">Get to know the rest</a>
+				</section>
+			</div>
+		</div>
+		<div class="help-bg bg" id="help">
+			<div class="help-wrapper wrapper">
+				<section class="help">
+					<h2 class="help__h">
+						How you can help our shelter
+					</h2>
+					<div class="help__items">
+						<div class="help__item"><img src="./icons/icon-pet-food.png" alt="">
+							<h3>Pet food</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-transportation.svg" alt="">
+							<h3>Transportation</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-toys.svg" alt="">
+							<h3>Toys</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-bowls-and-cups.svg" alt="">
+							<h3>Bowls and cups</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-shampoos.svg" alt="">
+							<h3>Shampoos</h3>
+						</div>
+					</div>
+					<div class="help__items">
+						<div class="help__item"><img src="./icons/icon-vitamins.svg" alt="">
+							<h3>Vitamins</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-medicines.svg" alt="">
+							<h3>Medicines</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-collars-leashes.svg" alt="">
+							<h3>Collars / leashes</h3>
+						</div>
+						<div class="help__item"><img src="./icons/icon-sleeping-area.svg" alt="">
+							<h3>Sleeping areas</h3>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="donation-bg bg">
+			<div class="donation-wrapper wrapper">
+				<section class="donation">
+					<div class="donation__left-side">
+						<img src="./img/donation-dog.png" alt="">
+					</div>
+					<div class="donation__right-side">
+						<h2>You can also make a donation</h2>
+						<p>Name of the bank / Type of bank account</p>
+						<a href="#!">
+							<img src="./icons/credit-card.svg" alt="">
+							<span>8380 2880 8028 8791 7435</span>
+						</a>
+						<p>Legal information and lorem ipsum dolor sit amet,
+							consectetur adipiscing elit. Maecenas a ipsum at libero
+							sagittis dignissim sed ac diam. Praesent ultrices maximus
+							tortor et vulputate. Interdum et malesuada fames ac ante ipsum
+							primis in faucibus.</p>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+	<div class="footer-bg bg" id="footer">
+		<div class="footer-wrapper wrapper">
+			<footer class="footer">
+				<div class="footer__mailphone">
+					<h2>For questions and suggestions</h2>
+					<div class="footer__mail">
+						<img src="./icons/icon-email.svg" alt="">
+						<a href="mailto:email@shelter.com">email@shelter.com</a>
+					</div>
+					<div class="footer__phone">
+						<img src="./icons/icon-phone.svg" alt="">
+						<a href="tel:+136745677554">+13 674 567 75 54</a>
+					</div>
+				</div>
+				<div class="footer__adress">
+					<h2>We are waiting for your visit</h2>
+					<div class="footer__map-one">
+						<img src="./icons/icon-marker.png" alt="">
+						<a href="https://www.google.by/maps/place/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D1%84%D0%BE%D0%BD%D0%B4+%22%D0%94%D0%BE%D0%B1%D1%80%D0%BE%22/@53.2127924,36.5388354,5z/data=!4m9!1m2!2m1!1z0LTQvtCx0YDQvg!3m5!1s0x43e138e22eaf8e39:0x63070d71d936d665!8m2!3d56.867777!4d53.2069641!15sCgrQtNC-0LHRgNC-kgEbYXNzb2NpYXRpb25fb3Jfb3JnYW5pemF0aW9u?hl=ru"
+							target="_blank">1 Central Street, Boston (entrance from the store)</a>
+					</div>
+					<div class="footer__map-two">
+						<img src="./icons/icon-marker.png" alt="">
+						<a href="https://www.google.by/maps/place/%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2+%D0%9B%D1%8E%D0%B1%D0%B2%D0%B8/@53.9646272,27.3370506,14z/data=!4m9!1m2!2m1!1z0LvRjtCx0L7QstGM!3m5!1s0x46dbc2fd0da55795:0xcccd4dc3c8e9c065!8m2!3d53.9730104!4d27.3445909!15sCgzQu9GO0LHQvtCy0YxaDiIM0LvRjtCx0L7QstGMkgEGaXNsYW5kmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVVJaTm5OeFZsUm5FQUU?hl=ru"
+							target="_blank">18 South Park, London </a>
+					</div>
+				</div>
+				<div class="footer__pic">
+					<img src="./img/footer-puppy.png" alt="">
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+
+</html>
